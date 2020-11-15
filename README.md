@@ -56,7 +56,7 @@ php vendor/bin/psalm --show-info=true
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/alexandrmazur96/apilayer-php/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/alexandrmazur96/apilayer-currencylayer-php/tags). 
 
 ## Authors
 
