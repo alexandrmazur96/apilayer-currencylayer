@@ -12,6 +12,7 @@
     "apilayer currencylayer sdk"
   ],
   "type": "library",
+  "license": ["MIT"],
   "authors": [
     {
       "name": "Olexandr Mazur",
