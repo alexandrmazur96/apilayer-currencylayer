@@ -1,5 +1,5 @@
-![Packagist Version](https://img.shields.io/packagist/v/alexandrmazur/apilayer-currencylayer-php)
-![Packagist License](https://img.shields.io/packagist/l/alexandrmazur/apilayer-currencylayer-php)
+[![Packagist](https://img.shields.io/packagist/v/alexandrmazur/apilayer-currencylayer-php)](https://packagist.org/packages/alexandrmazur/apilayer-currencylayer-php)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Currencylayer PHP SDK
 
