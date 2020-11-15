@@ -43,5 +43,10 @@
       "Apilayer\\Currencylayer\\": "src/",
       "Apilayer\\Tests\\": "tests/"
     }
+  },
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    }
   }
 }
