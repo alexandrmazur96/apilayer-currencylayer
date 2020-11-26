@@ -28,8 +28,10 @@ class Live implements ActionInterface
      * @param string[]|null $currencies
      * @throws InvalidArgumentException
      */
-    public function __construct(?string $source, ?array $currencies)
-    {
+    public function __construct(
+        ?string $source = null,
+        ?array $currencies = null
+    ) {
         if ($source !== null) {
             $this->assertSourceCurrency($source);
             /** @psalm-var Currency::* $source */

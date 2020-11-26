@@ -33,8 +33,11 @@ class Historical implements ActionInterface
      * @param ?string[] $currencies
      * @throws InvalidArgumentException
      */
-    public function __construct(DateTimeInterface $date, ?string $source, ?array $currencies)
-    {
+    public function __construct(
+        DateTimeInterface $date,
+        ?string $source = null,
+        ?array $currencies = null
+    ) {
         if ($source !== null) {
             $this->assertSourceCurrency($source);
             /** @psalm-var Currency::* $source */

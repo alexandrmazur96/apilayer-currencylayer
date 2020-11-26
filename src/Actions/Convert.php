@@ -40,7 +40,7 @@ class Convert implements ActionInterface
         string $fromCurrency,
         string $toCurrency,
         float $amount,
-        ?DateTimeInterface $date
+        ?DateTimeInterface $date = null
     ) {
         $this->assertCurrency($fromCurrency);
         $this->assertCurrency($toCurrency);

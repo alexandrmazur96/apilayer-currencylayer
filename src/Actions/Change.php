@@ -39,8 +39,8 @@ class Change implements ActionInterface
     public function __construct(
         DateTimeInterface $startDate,
         DateTimeInterface $endDate,
-        ?string $source,
-        ?array $currencies
+        ?string $source = null,
+        ?array $currencies = null
     ) {
         $this->assertDates($startDate, $endDate);
         if ($source !== null) {
